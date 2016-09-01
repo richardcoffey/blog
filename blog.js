@@ -5,6 +5,12 @@
 
 // Require dependencies.
 const express = require('express');
+const templates = {
+  main: require('./templates/main'),
+};
+const views = {
+  home: require('./views/home'),
+}
 
 // Create express app.
 const app = express();
@@ -15,7 +21,7 @@ app.locals.email = 'richardcoffey32@gmail.com';
 
 // Create home endpoint.
 app.get('/', (request, result) => {
-  result.send('Hello World!');
+  result.send(templates.main('Home', views.home));
 
 });
 
