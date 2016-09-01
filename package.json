@@ -3,7 +3,13 @@
   "version": "0.0.1",
   "description": "This is my blog.",
   "main": "blog.js",
-  "scripts": {},
+  "scripts": {
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/ava",
+    "lint": "./node_modules/.bin/eslint .",
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov > coverage.lcov",
+    "lint-english": "./node_modules/.bin/write-good *.md && ./node_modules/.bin/alex",
+    "coverage-report": "./node_modules/.bin/nyc report --reporter=html ./node_modules/.bin/ava && open ./coverage/index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/richardcoffey/blog.git"
@@ -13,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/richardcoffey/blog/issues"
   },
-  "homepage": "https://github.com/richardcoffey/blog#readme"
+  "homepage": "https://github.com/richardcoffey/blog#readme",
+  "devDependencies": {
+    "alex": "^3.1.0",
+    "ava": "^0.16.0",
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.14.0",
+    "nyc": "^8.1.0",
+    "write-good": "^0.9.1"
+  }
 }
