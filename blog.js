@@ -5,6 +5,8 @@
 
 // Require dependencies.
 const express = require('express');
+
+// Load templates and views.
 const templates = {
   main: require('./templates/main'),
 };
