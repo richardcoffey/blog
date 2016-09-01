@@ -14,7 +14,7 @@ module.exports = (title, body) => {
   <html>
     <head>
       <title>${title}</title>
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="/styles/style.css">
     </head>
     <body>
 
