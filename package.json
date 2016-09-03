@@ -4,6 +4,7 @@
   "description": "This is my blog.",
   "main": "blog.js",
   "scripts": {
+    "start": "node blog.js",
     "test": "./node_modules/.bin/nyc ./node_modules/.bin/ava",
     "lint": "./node_modules/.bin/eslint .",
     "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov > coverage.lcov",

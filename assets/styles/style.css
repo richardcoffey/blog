@@ -1,0 +1,131 @@
+/* Global styles */
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower|Raleway';
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* Summary paragraph styling. */
+
+#summary {
+  padding: 20px 40px;
+  background:#696969;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#summary h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+/* End of summary paragraph styling. */
+
+/* Header styling. */
+
+#header h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#header h3 {
+  font-weight: bolder;
+}
+
+#header {
+  padding: 20px 40px;
+  text-align: center;
+  background: #000080; 
+  color: white;
+  box-sizing: border-box;
+}
+
+#header ul {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+#header ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#header ul li a {
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 30px;
+  color: #000000;
+  transition: 0.4s background-color;
+  font-family: Indie Flower;
+}
+
+#header ul li a:hover {
+  background-color: deepskyblue;
+}
+
+/* End of header styling. */
+
+/* Social media link styling. */
+
+
+#social {
+  text-align: center;
+}
+
+#social ul {
+  text-align: center;
+}
+
+#social ul li {
+  display: inline-block;
+}
+
+#social ul li a {
+  text-indent: -900px;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  background-position: center center;
+  transition: margin-bottom 0.5s;
+}
+
+#social ul li a:hover {
+  margin-bottom: -10px;
+}
+
+#social ul li.facebook a {
+  background-image: url('/images/fblogo.jpg');
+}
+
+#social ul li.twitter a {
+  background-image: url('/images/twitterlogo.png');
+}
+
+#social ul li.ggl a {
+  background-image: url('/images/ggllogo.jpg')
+}
+
+/* End of social link styling. */
+
+/* Main website styles. */
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+/* End of main website styling. */
+
+/* Styling for pizza section */
+
+#pizza img {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
