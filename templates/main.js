@@ -34,13 +34,13 @@ module.exports = (title, body) => {
         <ul>
 
           <li class="facebook">
-            <a href="https://www.facebook.com/profile.php?id=100009285609720">Facebook</a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100009285609720">Facebook</a>
           </li>
           <li class="twitter">
             <a target="_blank" href="https://twitter.com/thearcman">Twitter</a>
           </li>
           <li class="ggl">
-            <a href="https://plus.google.com/u/0/110558789864230541494/posts">Google Plus</a>
+            <a target="_blank" href="https://plus.google.com/u/0/110558789864230541494/posts">Google Plus</a>
           </li>
         </ul>
       </section>
