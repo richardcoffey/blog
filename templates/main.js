@@ -8,7 +8,7 @@ module.exports = (title, body) => {
   return `
 <DOCTYPE! html>
 
-  <html>
+<html>
   <title>Richard Coffey | ${title} </title>
 
   <head>
@@ -37,7 +37,7 @@ module.exports = (title, body) => {
             <a href="https://www.facebook.com/profile.php?id=100009285609720">Facebook</a>
           </li>
           <li class="twitter">
-            <a href="https://twitter.com/thearcman">Twitter</a>
+            <a target="_blank" href="https://twitter.com/thearcman">Twitter</a>
           </li>
           <li class="ggl">
             <a href="https://plus.google.com/u/0/110558789864230541494/posts">Google Plus</a>
