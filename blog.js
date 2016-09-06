@@ -20,7 +20,8 @@ const views = {
   home: require('./views/home'),
   about: require('./views/about'),
   blog: require('./views/blog'),
-  contact: require('./views/contact')
+  contact: require('./views/contact'),
+  game: require('./views/games'),
 };
 
 //Importing the the webpage files, and displaying them on the webpage.
@@ -38,6 +39,10 @@ app.get('/contact', (request, result) => {
 
 app.get('/blog', (request, result) => {
   result.send(templates.main('Blog', views.blog));
+});
+
+app.get('/games', (request, result) => {
+  result.send(templates.main('Games', views.games));
 });
 
 //Setting the port.

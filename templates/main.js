@@ -25,6 +25,7 @@ module.exports = (title, body) => {
           <li><a class="blog" href="/blog">Blog</a></li>
           <li><a class="about" href="/about">About</a></li>
           <li><a class="contact" href="/contact">Contact</a></li>
+          <li><a class="games" href="/games">Games</a></li>
         </ul>
           <h1>Richard Coffey</h1>
           <h3>Learning HTML, CSS, and nodejs!</h3>
