@@ -8,7 +8,7 @@ module.exports = (title, body) => {
   return `
 <DOCTYPE! html>
 
-<html>
+  <html>
   <title>Richard Coffey | ${title} </title>
 
   <head>
@@ -27,8 +27,14 @@ module.exports = (title, body) => {
           <li><a class="contact" href="/contact">Contact</a></li>
           <li><a class="games" href="/games">Games</a></li>
         </ul>
-          <h1>Richard Coffey</h1>
-          <h3>Learning HTML, CSS, and nodejs!</h3>
+        <h1>Richard Coffey</h1>
+        <h3>Learning HTML, CSS, and nodejs!</h3>
+      </section>
+
+      <section id="penguin">
+
+        <img src="/images/penguin2.jpg">
+
       </section>
 
       <section id="social">
