@@ -13,7 +13,7 @@ app.use(express.static('assets'));
 //Adding template.
 const templates = {
   main: require('./templates/main'),
-};  
+};
 
 //Adding all of the objects for the different webpages.
 const views = {
@@ -42,7 +42,7 @@ app.get('/blog', (request, result) => {
 });
 
 app.get('/games', (request, result) => {
-  result.send(templates.main('Games', views.games));
+  result.send(templates.main('Games', views.game));
 });
 
 //Setting the port.

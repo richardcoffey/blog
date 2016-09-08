@@ -20,6 +20,11 @@ module.exports = (title, body) => {
     <section id="wrapper">
 
       <section id="header">
+        <h1>Richard Coffey</h1>
+        <h3>Learning HTML, CSS, and nodejs!</h3>
+      </section>
+
+      <section id="navigation">
         <ul>
           <li><a class="home" href="/home">Home</a></li>
           <li><a class="blog" href="/blog">Blog</a></li>
@@ -27,8 +32,6 @@ module.exports = (title, body) => {
           <li><a class="contact" href="/contact">Contact</a></li>
           <li><a class="games" href="/games">Games</a></li>
         </ul>
-        <h1>Richard Coffey</h1>
-        <h3>Learning HTML, CSS, and nodejs!</h3>
       </section>
 
       <section id="penguin">
@@ -61,5 +64,5 @@ module.exports = (title, body) => {
   </body>
 
   </html>
-   `;
+  `;
 };
