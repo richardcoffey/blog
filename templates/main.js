@@ -31,6 +31,7 @@ module.exports = (title, body) => {
           <li><a class="about" href="/about">About</a></li>
           <li><a class="contact" href="/contact">Contact</a></li>
           <li><a class="games" href="/games">Games</a></li>
+          <li><a class="music" href="/music">Music</a></li>
         </ul>
       </section>
 
