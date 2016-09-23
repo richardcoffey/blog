@@ -7,7 +7,7 @@ body {
 
 /* Summary paragraph styling. */
 
-#summary {
+#summary {  
   padding: 20px 40px;
   background:#bfbfbf;
   font-size: 23px;
@@ -165,6 +165,10 @@ body {
   list-style-type: none;
   width: 300px;
   height: 300px;
+}
+
+#music {
+  text-align: center;
 }
 
 /* End of styling for music page */

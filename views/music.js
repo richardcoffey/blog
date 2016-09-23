@@ -49,6 +49,7 @@ module.exports = `
         allowtransparency="true"></iframe>
     </li>
   </ul>
+  <a target="_blank" href="https://www.spotify.com/us/">Spotify Download Link</a>
 <h1>Enjoy!</h1>
 </section>
 `;

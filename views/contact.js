@@ -5,5 +5,5 @@
 
 //Creating the function that imports HTML to the blog.js file.
 module.exports = `
-
-`
+<h1>Coming soon!</h1>
+`;
