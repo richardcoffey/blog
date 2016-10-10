@@ -35,7 +35,21 @@ app.get('/about', (request, result) => {
 });
 
 app.get('/contact', (request, result) => {
-  result.send(templates.main('Contacts', views.contact));
+result.send(templates.main('Contacts', views.contact(false)));
+});
+
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.post('/contact', (request, result) => {
+  const name = request.body.name;
+  const email = request.body.email;
+  const num = request.body.num;
+  const para = request.body.para;
+  
+  console.log(name + ' ' + email + ' ' + num + ' ' + para);
+  result.send(templates.main('Contacts', views.contact(true)));
 });
 
 app.get('/blog', (request, result) => {
@@ -43,12 +57,14 @@ app.get('/blog', (request, result) => {
 });
 
 app.get('/games', (request, result) => {
-  result.send(templates.main('Games', views.game));
+  views.game().then((html) => {
+    result.send(templates.main('Games', html));
+  }).catch((error) => console.error(error));
 });
 
 app.get('/music', (request, result) => {
   result.send(templates.main('Music', views.music));
 });
 
-//Setting the port.
+//Setting the port. 
 app.listen(1200);

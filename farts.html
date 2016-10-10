@@ -1,66 +1,13 @@
-<DOCTYPE! html>
-
-  <html>
-  <title>Richard Coffey | ${title} </title>
-
-  <head>
-    <link rel="stylesheet" type="text/css" href="/styles/style.css">
-  </head>
-
-  <body>
-
-    <section id="wrapper">
-
-      <section id="header">
-        <ul>
-          <li>
-            <img src="/images/pom2">
-          </li>
-          <li>
-            <h1>Richard Coffey</h1>
-          </li>
-        </ul>
-        <h3>Learning HTML, CSS, and nodejs!</h3>
-      </section>
-
-      <section id="navigation">
-        <ul>
-          <li><a class="home" href="/home">Home</a></li>
-          <li><a class="blog" href="/blog">Blog</a></li>
-          <li><a class="about" href="/about">About</a></li>
-          <li><a class="contact" href="/contact">Contact</a></li>
-          <li><a class="games" href="/games">Games</a></li>
-          <li><a class="music" href="/music">Music</a></li>
-        </ul>
-      </section>
-
-      <section id="penguin">
-
-        <img src="/images/penguin2.jpg">
-
-      </section>
-
-      <section id="social">
-        <ul>
-
-          <li class="facebook">
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100009285609720">Facebook</a>
-          </li>
-          <li class="twitter">
-            <a target="_blank" href="https://twitter.com/thearcman">Twitter</a>
-          </li>
-          <li class="ggl">
-            <a target="_blank" href="https://plus.google.com/u/0/110558789864230541494/posts">Google Plus</a>
-          </li>
-        </ul>
-      </section>
-
-      <section id="summary">
-        ${body}
-      </section>
-
-    </section>
-
-  </body>
-
-  </html>
+<section id="con">
+  <form action=="contact" method="post">
+    <label for="name">Your Name</label>
+    <input type="text" name="name"/>
+    <label for="email">Email</label>
+    <input type="text" name="contact"/>
+    <label for="num" >Number</label>
+    <input type="text" name="num"/>
+    <label for="para">Contact me</label>
+    <textarea name="para" rows="10" cols="50"></textarea>
+    <input type="Submit" value="Submit" />
+  </form>
+</section>
